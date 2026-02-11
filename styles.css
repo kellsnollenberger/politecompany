@@ -35,7 +35,7 @@ body {
 
 .hero-mark {
   display: block;
-  margin: 0 auto 0.4rem;
+  margin: 0 auto 0.2rem;
 }
 
 .hero-mark img {
@@ -45,54 +45,8 @@ body {
   margin: 0 auto;
 }
 
-.stamp {
-  margin: 0.9rem 0 0;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.78rem;
-  color: var(--muted);
-}
-
-.eyebrow {
-  margin: 0;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.76rem;
-  color: var(--muted);
-}
-
-h1 {
-  margin: 0.45rem 0 0.25rem;
-  font-size: clamp(2.4rem, 8vw, 4.8rem);
-  line-height: 0.92;
-  font-family: "Iowan Old Style", "Palatino", "Georgia", serif;
-}
-
-.script {
-  margin: 0 0 0.2rem;
-  font-size: clamp(1.8rem, 5.6vw, 3rem);
-  font-family: "Snell Roundhand", "Bradley Hand", "Apple Chancery", cursive;
-}
-
-.schedule {
-  margin: 0.55rem 0 0;
-  font-size: clamp(1.55rem, 4.9vw, 2.4rem);
-  font-family: "Iowan Old Style", "Palatino", "Georgia", serif;
-}
-
-.time {
-  margin: 0;
-  font-size: clamp(1.48rem, 4.7vw, 2.2rem);
-  font-family: "Iowan Old Style", "Palatino", "Georgia", serif;
-}
-
-.city {
-  margin: 0.25rem 0 0;
-  color: var(--muted);
-}
-
 .divider {
-  margin: 1rem auto 0.8rem;
+  margin: 0.85rem auto 0.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
