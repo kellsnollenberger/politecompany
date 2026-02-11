@@ -4,26 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Polite Company</title>
-    <meta name="description" content="Polite Company - brand, web, and creative systems." />
+    <meta
+      name="description"
+      content="Polite Company is a small creative studio for clear strategy, sharp brand systems, and practical websites."
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="wrap">
-      <p class="eyebrow">Studio</p>
-      <h1>Polite Company</h1>
-      <p class="lead">A small studio for clear strategy, strong design systems, and practical digital products.</p>
-      <section>
-        <h2>Services</h2>
-        <ul>
-          <li>Brand positioning + identity systems</li>
-          <li>Web design + front-end build</li>
-          <li>Creative direction + launch support</li>
-        </ul>
+    <div class="backdrop" aria-hidden="true">
+      <span class="shape shape-one"></span>
+      <span class="shape shape-two"></span>
+      <span class="shape shape-three"></span>
+    </div>
+
+    <header class="topbar">
+      <a class="wordmark" href="#top">Polite Company</a>
+      <nav aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top" class="wrap">
+      <section class="hero reveal">
+        <p class="eyebrow">Studio</p>
+        <h1>Design that behaves as well as it looks.</h1>
+        <p class="lead">
+          We help founders and teams turn ideas into clear brands, useful websites, and launch-ready creative systems.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="mailto:hello@politecompany.co">Start a Project</a>
+          <a class="btn btn-ghost" href="#work">See Recent Work</a>
+        </div>
       </section>
-      <section>
-        <h2>Contact</h2>
-        <p><a href="mailto:hello@politecompany.co">hello@politecompany.co</a></p>
+
+      <section id="services" class="section reveal">
+        <p class="eyebrow">Services</p>
+        <div class="cards">
+          <article class="card">
+            <h2>Brand Systems</h2>
+            <p>Positioning, naming, voice, and visual identity designed to stay consistent across channels.</p>
+          </article>
+          <article class="card">
+            <h2>Web Build</h2>
+            <p>Fast, accessible websites with flexible page structures your team can maintain confidently.</p>
+          </article>
+          <article class="card">
+            <h2>Launch Support</h2>
+            <p>Creative direction, campaign assets, and practical rollout plans for product and brand launches.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section reveal">
+        <p class="eyebrow">Selected Work</p>
+        <div class="projects">
+          <article>
+            <h2>Summit Studio</h2>
+            <p>Repositioned a local consultancy with a tight voice system and conversion-focused site redesign.</p>
+          </article>
+          <article>
+            <h2>Northline Goods</h2>
+            <p>Built a modular launch page set for a seasonal product line, cutting content turnaround in half.</p>
+          </article>
+          <article>
+            <h2>Wild Current</h2>
+            <p>Created an identity and campaign toolkit used across web, social, and retail event touchpoints.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Tell us what you are building.</h2>
+        <p>Share your timeline, goals, and current stage. We will reply with a scope recommendation.</p>
+        <a class="btn btn-solid" href="mailto:hello@politecompany.co">hello@politecompany.co</a>
       </section>
     </main>
+
+    <footer>
+      <p>Polite Company</p>
+      <p>Brand, web, and launch systems.</p>
+    </footer>
   </body>
 </html>
