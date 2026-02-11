@@ -135,6 +135,20 @@ h1 {
   font-size: clamp(1rem, 2.8vw, 1.3rem);
 }
 
+.band-photo {
+  margin: 0.2rem auto 0.95rem;
+  width: min(430px, 100%);
+}
+
+.band-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 2px solid var(--line);
+  border-radius: 18px;
+  filter: saturate(0.92) contrast(1.04);
+}
+
 .contact p {
   margin: 0;
 }
