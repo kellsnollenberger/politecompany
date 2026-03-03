@@ -35,9 +35,18 @@ body {
 
 .hero-mark {
   display: block;
-  margin: 0 auto 0.65rem;
+  margin: 0 auto 0.8rem;
   width: min(710px, 100%);
   height: auto;
+}
+
+.band-photo {
+  display: block;
+  margin: 0 auto 0.8rem;
+  width: min(520px, 100%);
+  height: auto;
+  border: 2px solid var(--line);
+  border-radius: 14px;
 }
 
 .contact-mark {
