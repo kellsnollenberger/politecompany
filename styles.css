@@ -49,11 +49,36 @@ body {
   border-radius: 14px;
 }
 
-.contact-mark {
-  display: block;
-  margin: 0 auto;
+.contact {
   width: min(710px, 100%);
-  height: auto;
+  margin: 0 auto;
+  padding: 0.65rem 0.45rem 0.35rem;
+  text-align: left;
+  font-size: clamp(1.5rem, 3.4vw, 2.15rem);
+  line-height: 1.06;
+}
+
+.contact p {
+  margin: 0 0 0.38rem;
+}
+
+.contact strong {
+  font-family: "Amatic SC", "Patrick Hand", cursive;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin-right: 0.3rem;
+}
+
+.contact a {
+  color: var(--ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.contact a:hover {
+  color: var(--muted);
 }
 
 .corner {
